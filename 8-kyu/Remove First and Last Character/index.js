@@ -4,3 +4,9 @@ function removeChar(str){
     let removeLast = str.pop();
     return str.join('');
 }
+
+// OR 
+
+// function removeChar(str){
+//     return str.slice(1, -1)
+// }
