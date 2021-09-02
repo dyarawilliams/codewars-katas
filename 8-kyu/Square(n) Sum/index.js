@@ -19,4 +19,9 @@ function squareSum(numbers){
     // Returns the sum
     return sum;
   }
-  
+
+// function squareSum(numbers){
+//   return numbers.reduce((sum, n) => {
+//     return sum + (n*n)
+//   }, 0)
+// }
