@@ -10,7 +10,7 @@ Codewars is a collective effort by its users. They are creators - authoring kata
 ### My Global Index
 - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/8-kyu) 🚧
 - [7 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/7-kyu) 🚧
-- 6 kyu ⛔
+- [6 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/6-kyu) 🚧
 - 5 kyu ⛔
 
 Notes:
