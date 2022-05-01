@@ -4,6 +4,10 @@
   This is a collection of the solutions for the codewars katas that I've completed.
 </h6>
 
+<p align="center">
+  <img src="https://www.codewars.com/users/dyarawilliams/badges/large" alt="My Codewars Badge"/>
+</p
+
 ## About 
 Codewars is a collective effort by its users. They are creators - authoring kata to teach various techniques, solving kata with solutions that enlighten others, and commenting with constructive feedback. The leaders among them moderate the content and community.
 
