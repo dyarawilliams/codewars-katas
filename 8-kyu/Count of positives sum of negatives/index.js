@@ -15,12 +15,14 @@
 // Create a function that takes in an array of positve and negative integers that 
 // returns an array of integers which the first element is the count of positives and the second element
 // is the sum of negative integers **note that 0 is neither positive or negative(not counted))
+
 function countPositivesSumNegatives(input) {
-    // Filter out the positives
-    let positiveNums = input.filter(item => item >= 1)
-    // Filter out the negatives and find the sum of the integers
-    let negativeSum = input.filter(item => item < 0).reduce((acc, c) => acc + c, 0)
-    
-    let result = [positiveNums.length, negativeSum]
-    return result
+    let positiveNums = 0
+    let negativeNums = 0
+    if(input === null || input.length === 0){
+        return []
+    } else {
+        input.forEach((num) => num > 0 ? positiveNums++ : negativeNums += num)
+    }
+    return [positiveNums, negativeNums]
 }
