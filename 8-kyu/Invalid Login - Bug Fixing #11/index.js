@@ -17,5 +17,4 @@ function validate(username, password) {
         return 'Wrong username or password!'
     }
     return database.login(username, password);
-
 }
