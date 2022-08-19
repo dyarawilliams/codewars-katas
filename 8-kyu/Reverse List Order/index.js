@@ -10,4 +10,5 @@ function reverseList(list) {
         result.push(list[i])
     }
     return result
+    // return list.reverse()
 }
