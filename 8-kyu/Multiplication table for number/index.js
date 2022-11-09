@@ -16,6 +16,17 @@ For example, a multiplication table (string) for number == 5 looks like below:
 
 Note: newlines should be added between rows, but there should be no trailing newline at the end.
 */
+
+// Solution 1 
 function multiTable(number) { 
     return [1,2,3,4,5,6,7,8,9,10].map(item => `${item} * ${number} = ${item * number}`).join('\n')
-  }
+}
+
+// Solution 2
+const multiTable = (number) => {
+    let arr = [];
+    for(let i = 1; i <= 10; i++){
+      arr.push(`${i} * ${number} = ${i * number}`)
+    }
+    return arr.join('\n')
+}
