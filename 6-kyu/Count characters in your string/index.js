@@ -24,3 +24,15 @@ const count = (string) => {
     }
     return obj
 }
+
+// Solution 2
+function count(string){
+    // Create emppty object literal
+    let charCount = {}
+    // Split string into array, without delimiter then use forEach to loop through each individual letter and return the new object literal
+    string.split('').forEach(char => charCount[char] ? charCount[char]++ : charCount[char] = 1);
+    return charCount;
+}
+
+console.log(count('aba'))
+console.log(count('common'))
