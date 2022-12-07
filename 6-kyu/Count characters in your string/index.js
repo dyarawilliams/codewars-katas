@@ -16,7 +16,7 @@
 const count = (string) => {
     let obj = {}
     // Put each letter in the string as the key of the object
-    // Put the number of occurences each letter has occured as the value
+    // Put the number of occurrences each letter has occured as the value
     for (let i = 0; i < string.length; i++) {
         if ((string.match(new RegExp(string[i], "g"))).length >= 1) {
             obj[string[i]] = (string.match(new RegExp(string[i], "g"))).length;
