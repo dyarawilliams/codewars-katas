@@ -5,15 +5,12 @@
 // Tags: Strings, Fundamentals
 
 // Parameters: a string
-// Returns: an object containing each occurance of a character
+// Returns: an object containing each occurrence of a character
 // Examples: 'aba' => {'a': 2, 'b': 1}
 //           "" => {}
 //           'common' => {'c': 1, 'o': 2, 'm': 2, 'n': 1}
 
 // Psuedo: Declare a function called count that takes in a string and counts the occurrences of each character in the string.
-
-// Put each letter in the string as the key of the object
-// Put the number of occurences each letter has occured as the value
 
 // Solution 1
 const count = (string) => {
