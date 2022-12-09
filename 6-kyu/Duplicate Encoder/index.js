@@ -22,10 +22,10 @@ function duplicateEncode(word){
     // Split the word into an array
     // Loop through the word of each character, comparing the original array to the new array 
     // If a character appears only once then return "(" otherwise if the character is a duplicate return ")"
-    return word.split('').map((char, i, arr) => arr.indexOf(char) == arr.lastIndexOf(char) ? "(" : ")").join('')
+    return word.toLowerCase().split('').map((char, i, arr) => arr.indexOf(char) == arr.lastIndexOf(char) ? "(" : ")").join('')
 }
 
 console.log(duplicateEncode("din")) // "(((""
 console.log(duplicateEncode("recede")) // "()()()"
-console.log(duplicateEncode("Success")) // "(())())"
+console.log(duplicateEncode("Success")) // ")())())"
 console.log(duplicateEncode("(( @")) // "))(("
