@@ -11,9 +11,9 @@
 
 // Tags: Fundamentals, Strings
 
-// Parameters:
-// Returns:
-// Example: 
+// Parameters: a string, misinterpreted
+// Returns: a string, corrected
+// Example: "L0ND0N" => "LONDON" , "51NGAP0RE" => "SINGAPORE" 
 // Psuedo: Declare a function called correct that takes one parameter: a valid string with mistakes and returns a string with corrected characters.
 
 function correct(string) {
