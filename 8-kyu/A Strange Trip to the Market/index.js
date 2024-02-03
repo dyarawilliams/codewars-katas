@@ -9,3 +9,5 @@ Since Nessie is a master of disguise, the only way accurately tell is to look fo
 function isLockNessMonster(s) {
     return s.includes('tree fiddy') || s.includes(3.50)
 }
+
+const isLockNessMonster = s => s.includes('tree fiddy') || s.includes(3.50)
