@@ -18,14 +18,33 @@
 //     return sum
 // }
 
-var summation = num => {
-    let running_total = 0;
-    for(let i = 1; i <= num; i++){
-        running_total += i
+// Parameters: positive integers (numbers)
+// Returns: sum of all numbers from 1 to number given
+// Examples: summation(1) -> 1, summation(2) -> 3, summation(8) -> 36
+
+// Psuedo: Create a function called summation that takes in a number and returns the sum of each number starting at 1 to the number given.
+
+// Solution 1
+// var summation = num => {
+//     let running_total = 0;
+//     for(let i = 1; i <= num; i++){
+//         running_total += i
+//     }
+//     return running_total;
+// }
+
+// Solution 2
+let summation = num => {
+    let sum = 0;
+    for(let i = 1; i <= num; i++) {
+        // console.log(`Sum start: ${sum}`)
+        sum += i;
+        // console.log(`Sum after plus i: ${sum}`)
     }
-    return running_total;
+    return sum;
+    // console.log(`Sum total: ${sum}`)
 }
 
+console.log(summation(1))
 console.log(summation(2))
 console.log(summation(8))
-console.log(summation(1))
