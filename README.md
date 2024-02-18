@@ -11,6 +11,8 @@
 ## About  
 Codewars is a platform that helps you learn, train, and improve your coding skills by solving programming tasks of many types and difficulty levels. You choose how you would like to learn.
 
+Time Spent: [![wakatime](https://wakatime.com/badge/user/374368ff-083b-4229-b46b-62cd1dbb07ec/project/1154727a-084a-4a71-a52f-ca3adc0aef0f.svg)](https://wakatime.com/badge/user/374368ff-083b-4229-b46b-62cd1dbb07ec/project/1154727a-084a-4a71-a52f-ca3adc0aef0f)
+
 ### My Global Index
 - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/8-kyu) 🚧
 - [7 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/7-kyu) 🚧
