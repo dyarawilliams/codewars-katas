@@ -8,15 +8,23 @@
 // celsius = (fahrenheit - 32) * (5/9)
 // Remember that typically temperatures in the current weather conditions are given in whole numbers. It is possible for temperature sensors to report temperatures with a higher accuracy such as to the nearest tenth. Instrument error though makes this sort of accuracy unreliable for many types of temperature measuring sensors.
 
+// Parameters:  integer -  positive or negative
+// Returns: farenheit temp to celsius temp
+// Examples: 50 -> '10 is above freezing temperature', 23 -> '-5 is freezing temperature'
+// Results: 
+
 function weatherInfo (temp) {
     let c = convertToCelsius(temp)
-    if (c < 0)
-        return (c + " is freezing temperature")
-    else
-        return (c + " is above freezing temperature")
+    if (c < 0){
+        return (c + " is freezing temperature");
+    } else {
+        return (c + " is above freezing temperature");
+    }
 }
 
 function convertToCelsius (temperature) {
     let celsius = (temperature - 32) * (5/9)
     return celsius
 }
+
+module.exports = weatherInfo;
