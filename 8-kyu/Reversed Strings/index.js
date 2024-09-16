@@ -22,6 +22,8 @@
 // Solution 3 - Arrow Fuction with Destructuring 
 const solution = str => [...str].reverse().join('')
 
-console.log(solution('world'))
-console.log(solution('hello'))
-console.log(solution('javascript'))
+// console.log(solution('world'))
+// console.log(solution('hello'))
+// console.log(solution('javascript'))
+
+module.exports = solution;
