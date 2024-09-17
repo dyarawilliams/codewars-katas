@@ -14,7 +14,4 @@
 // Solution 2 - Arrow Function
 const multiply = (a, b) => a * b;
 
-console.log(multiply(2,2));
-console.log(multiply(5,3));
-console.log(multiply(1,7));
-console.log(multiply(9,2));
+module.exports = multiply;

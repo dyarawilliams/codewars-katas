@@ -9,3 +9,5 @@
 function multiply(number){
     return (number.toString().charAt(0) === '-') ? number * (5 ** (number.toString().length - 1)) : number * (5 ** number.toString().length)
 }
+
+module.exports = multiply;
