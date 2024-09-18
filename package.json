@@ -1,0 +1,15 @@
+{
+  "name": "codewars-katas",
+  "version": "1.0.0",
+  "description": "This is a repository of my codewars katas that I've completed.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
