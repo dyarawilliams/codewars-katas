@@ -11,20 +11,15 @@
 // Parameters:  integer -  positive or negative
 // Returns: farenheit temp to celsius temp
 // Examples: 50 -> '10 is above freezing temperature', 23 -> '-5 is freezing temperature'
-// Results: 
+// Results: an  string with the celsius temp describing wherther it is freezing or above freesing
 
-function weatherInfo (temp) {
-    let c = convertToCelsius(temp)
-    if (c < 0){
-        return (c + " is freezing temperature");
-    } else {
-        return (c + " is above freezing temperature");
-    }
-}
-
-function convertToCelsius (temperature) {
-    let celsius = (temperature - 32) * (5/9)
-    return celsius
+function weatherInfo(temp) {
+  var c = (temp - 32) * (5/9);
+  if (c <= 0){
+    return (c + " is freezing temperature");
+  } else {
+    return (c + " is above freezing temperature");
+  }
 }
 
 module.exports = weatherInfo;
