@@ -26,3 +26,5 @@
 // Solution 2 - arrow function
 
 const take = (arr, n) => arr.slice(0, n);
+
+module.exports = take;
