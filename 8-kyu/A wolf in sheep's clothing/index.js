@@ -8,25 +8,33 @@
 
 // Note: there will always be exactly one wolf in the array.
 
-// Examples
+// Parameters: an array of strings
+// Returns: a string
+// Examples: 
 // Input: ["sheep", "sheep", "sheep", "wolf", "sheep"]
 // Output: "Oi! Sheep number 1! You are about to be eaten by a wolf!"
 
 // Input: ["sheep", "sheep", "wolf"]
 // Output: "Pls go away and stop eating my sheep"
 
-// Solution 1
-function warnTheSheep(queue) {
-    let sheepPos = queue.length - queue.indexOf('wolf') - 1
-    if (sheepPos === 0) {
-        return 'Pls go away and stop eating my sheep'
-    } else {
-        return `Oi! Sheep number ${sheepPos}! You are about to be eaten by a wolf!`
-    }
-}
+// Psuedo: Declare a function that takes in a array of strings that represents the queue of sheeps and the wolf and returns a string that lets warns you if their is a sheep in front of the wolf that is about to be eaten
 
-// Solution 2 
+// Solution 1
+// function warnTheSheep(queue) {
+//     let sheepPos = queue.length - queue.indexOf('wolf') - 1
+//     if (sheepPos === 0) {
+//         return 'Pls go away and stop eating my sheep'
+//     } else {
+//         return `Oi! Sheep number ${sheepPos}! You are about to be eaten by a wolf!`
+//     }
+// }
+
+// Solution 2 - arrow function
 const warnTheSheep = (queue) => {
+    // Declare a variable that stores the sheep that is infront of the wolf's position
     let sheepPos = queue.reverse().indexOf('wolf')
+    // Return a string letting the wolf know to go way if sheepPos is equal to 0, and  warn the sheep if otherwise
     return sheepPos == 0 ? 'Pls go away and stop eating my sheep' : `Oi! Sheep number ${sheepPos}! You are about to be eaten by a wolf!`
 }
+
+module.exports = warnTheSheep;
