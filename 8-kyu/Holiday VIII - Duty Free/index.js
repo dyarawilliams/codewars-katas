@@ -6,6 +6,17 @@
 
 // All inputs will be integers. Please return an integer. Round down.
 
-function dutyFree(normPrice, discount, hol){
-    return Math.floor(hol / (normPrice * (discount/100)))
-}
+// Parameters: all 3 inputs - (integers) --> normPrice(high street price), discount(duty free discount), hol(cost of the holiday)
+// Returns: integer (number of bottles would have to purchase)
+// Examples: dutyFree(12,50,1000) -> 166, dutyFree(17,10,500) ->  294, dutyFree(24,35,3000) -> 357
+
+// Pseudo: 
+
+
+// Solution 1
+// function dutyFree(normPrice, discount, hol){
+//     return Math.floor(hol / (normPrice * (discount/100)))
+// }
+
+// Solution 2 - arrow function
+const dutyFree = (normPrice, discount, hol) => Math.floor(hol / (normPrice * (discount / 100)));
