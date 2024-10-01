@@ -20,3 +20,5 @@
 
 // Solution 2 - arrow function
 const dutyFree = (normPrice, discount, hol) => Math.floor(hol / (normPrice * (discount / 100)));
+
+module.exports = dutyFree;

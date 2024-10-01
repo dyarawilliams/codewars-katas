@@ -43,3 +43,5 @@ const multiTable = (number) => {
     }
     return arr.join('\n')
 }
+
+module.exports = multiTable;
