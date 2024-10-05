@@ -83,14 +83,15 @@ Here’s a detailed guide on contributing to this repository:
 - Browse through the repository and select one kata folder that does not have a Jest test implementation. Usually, kata solutions are organized by folders.
 
 ### 5. Add the Jest Test Implementation
-- Create a new test file in the __tests__ directory with the name of the kata (e.g., kataName.test.js).
+- Add `module.exports = functionName;` to the `index.js` file to export the module 
+- Create a new test file in the directory of the kata you picked with the name of the kata (e.g., kataName.test.js).
 - Write unit tests using Jest that thoroughly test the kata solution:
     - Test different input scenarios (e.g., edge cases, valid inputs, invalid inputs).
     - Ensure that each test checks whether the solution returns the expected results.
 
 Example Test File: 
 ```javascript
-const kataFunction = require('../path-to-kata-solution/kataName');
+const kataFunction = require('./kataName');
 
 describe('Kata Name Solution', () => {
   test('should return correct result for valid input', () => {
@@ -119,7 +120,7 @@ npm test
 ### 7. Commit Your Changes
 - After writing and verifying your tests, commit your changes to the branch:
 ```bash
-git add __tests__/kataName.test.js
+git add kataName.test.js
 git commit -m "Add Jest test implementation for kataName"
 ```
 
@@ -133,9 +134,9 @@ git push origin add-jest-tests-kataName
 - Navigate to the original repository on GitHub.
 - You should see a prompt to Compare & Pull Request from your branch to the main repository.
 - Click the button and fill out the pull request (PR) details.
-    - Title: Add Jest Test Implementation for Kata Name
+    - Title: Add Jest Test Implementation for `Kata Name`
     - Description: Briefly describe what you’ve done (e.g., added Jest tests for specific scenarios).
-    - Link your PR to the relevant issue by including "Closes #ISSUE_NUMBER" in the PR description (e.g., "Closes #1").
+    - Link your PR to the relevant issue by including "Issue #ISSUE_NUMBER" in the PR description (e.g., "Closes #1").
 - Submit the pull request.
 
 ### 10. Wait for Review and Feedback
@@ -190,7 +191,7 @@ This section guides you through submitting an enhancement suggestion for codewar
 #### Before Submitting an Enhancement
 
 - Make sure that you are using the latest version.
-- Read the [documentation]() carefully and find out if the functionality is already covered, maybe by an individual configuration.
+- Read the [documentation](https://jestjs.io/docs/getting-started) carefully and find out if the functionality is already covered, maybe by an individual configuration.
 - Perform a [search](https://github.com/dyarawilliams/codewars-katas/issues) to see if the enhancement has already been suggested. If it has, add a comment to the existing issue instead of opening a new one.
 - Find out whether your idea fits with the scope and aims of the project. It's up to you to make a strong case to convince the project's developers of the merits of this feature. Keep in mind that we want features that will be useful to the majority of our users and not just a small subset. If you're just targeting a minority of users, consider writing an add-on/plugin library.
 
@@ -234,5 +235,5 @@ This guide is based on the **contributing-gen**. [Make your own](https://github.
 
 ## Additional Notes
 - Make sure to comment on the issue before starting work to avoid duplicate contributions.
-- Ensure that your code adheres to the repository’s contribution guidelines (if provided).
+- Ensure that your code adheres to the repository’s contribution guidelines provided.
 - Contributions that follow test-driven development (TDD) practices and test for various edge cases are highly encouraged.
