@@ -14,7 +14,7 @@ All types of contributions are encouraged and valued. See the [Table of Contents
 ## Table of Contents
 
 - [I Have a Question](#i-have-a-question)
-- [I Want To Contribute](#i-want-to-contribute)
+- [How to Contribute](#how-to-contribute)
 - [Reporting Bugs](#reporting-bugs)
 - [Suggesting Enhancements](#suggesting-enhancements)
 - [Your First Code Contribution](#your-first-code-contribution)
@@ -54,10 +54,93 @@ Depending on how large the project is, you may want to outsource the questioning
 - Forum
 -->
 
-## I Want To Contribute
+## How to Contribute
 
 > ### Legal Notice <!-- omit in toc -->
 > When contributing to this project, you must agree that you have authored 100% of the content, that you have the necessary rights to the content and that the content you contribute may be provided under the project license.
+
+Here’s a detailed guide on contributing to this repository:
+
+### 1. Fork the Repository
+- Navigate to the repository’s main page on GitHub.
+- Click the **Fork** button in the upper-right corner of the repository to create your own copy of the repository.
+
+### 2. Clone Your Forked Repository
+- Once you’ve forked the repository, clone it to your local machine using the following command:
+  ```bash
+  git clone https://github.com/your-username/repository-name.git
+  ```
+- Replace `your-username` with your GitHub username and `repository-name` with the name of the repository.
+
+### 3. Create a New Branch
+- Before making any changes, create a new branch in your local repository to work on your contribution:
+  ```bash
+  git checkout -b add-jest-tests-kataName
+  ```
+- Replace kataName with the name of the kata you'll be adding tests for. 
+
+### 4. Select and Navigate to a Kata Folder
+- Browse through the repository and select one kata folder that does not have a Jest test implementation. Usually, kata solutions are organized by folders.
+
+### 5. Add the Jest Test Implementation
+- Create a new test file in the __tests__ directory with the name of the kata (e.g., kataName.test.js).
+- Write unit tests using Jest that thoroughly test the kata solution:
+    - Test different input scenarios (e.g., edge cases, valid inputs, invalid inputs).
+    - Ensure that each test checks whether the solution returns the expected results.
+
+Example Test File: 
+```javascript
+const kataFunction = require('../path-to-kata-solution/kataName');
+
+describe('Kata Name Solution', () => {
+  test('should return correct result for valid input', () => {
+    expect(kataFunction(validInput)).toBe(expectedOutput);
+  });
+
+  test('should handle edge case input', () => {
+    expect(kataFunction(edgeCaseInput)).toBe(expectedEdgeCaseOutput);
+  });
+
+  // Add more test cases as needed
+});
+```
+
+### 6. Install Dependencies and Run Tests
+- Install the required dependencies by running:
+```bash
+npm install
+```
+- Run your Jest tests to ensure everything works correctly:
+```bash
+npm test
+```
+- Verify that all your tests pass without errors.
+
+### 7. Commit Your Changes
+- After writing and verifying your tests, commit your changes to the branch:
+```bash
+git add __tests__/kataName.test.js
+git commit -m "Add Jest test implementation for kataName"
+```
+
+### 8. Push Your Changes
+- Push your changes to your forked repository:
+```bash
+git push origin add-jest-tests-kataName
+```
+
+### 9. Create a Pull Request
+- Navigate to the original repository on GitHub.
+- You should see a prompt to Compare & Pull Request from your branch to the main repository.
+- Click the button and fill out the pull request (PR) details.
+    - Title: Add Jest Test Implementation for Kata Name
+    - Description: Briefly describe what you’ve done (e.g., added Jest tests for specific scenarios).
+    - Link your PR to the relevant issue by including "Closes #ISSUE_NUMBER" in the PR description (e.g., "Closes #1").
+- Submit the pull request.
+
+### 10. Wait for Review and Feedback
+Once your pull request is submitted, maintainers will review your code. You may receive feedback or requests for changes.
+Make the requested changes (if any) and update your pull request.
 
 ### Reporting Bugs
 
@@ -148,3 +231,8 @@ Updating, improving and correcting the documentation
 <!-- omit in toc -->
 ## Attribution
 This guide is based on the **contributing-gen**. [Make your own](https://github.com/bttger/contributing-gen)!
+
+## Additional Notes
+- Make sure to comment on the issue before starting work to avoid duplicate contributions.
+- Ensure that your code adheres to the repository’s contribution guidelines (if provided).
+- Contributions that follow test-driven development (TDD) practices and test for various edge cases are highly encouraged.
