@@ -11,6 +11,12 @@
 // 3.1 needs to become $3.10
 // Good luck! Your team knows they can count on you!
 
-function formatMoney(amount){
-    return `$${amount.toFixed(2)}`
-}
+// Solution 1
+// function formatMoney(amount){
+//     return `$${amount.toFixed(2)}`
+// }
+
+// Solution 2 - arrow function
+const formatMoney = amount => `$${amount.toFixed(2)}`
+
+module.exports = formatMoney;
