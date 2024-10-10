@@ -8,6 +8,10 @@
 // Notes
 // String str will never be null.
 
-var replaceDots = function(str) {
-    return str.replace(/[.]/g, '-');
-}
+// Solution 1
+// var replaceDots = function(str) {
+//     return str.replace(/[.]/g, '-');
+// }
+
+// Solution 2 - arrow function 
+const replaceDots = str => str.replace(/[.]/g, '-');
