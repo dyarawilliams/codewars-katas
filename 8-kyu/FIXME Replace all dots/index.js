@@ -15,3 +15,5 @@
 
 // Solution 2 - arrow function 
 const replaceDots = str => str.replace(/[.]/g, '-');
+
+module.exports = replaceDots;
