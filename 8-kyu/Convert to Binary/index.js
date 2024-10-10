@@ -11,7 +11,7 @@
 
 // Parameters: Takes in a non-negative number, n
 // Returns: number in binary format
-// Examples: 
+// Examples: toBinary(1) -> 1, toBinary(2) -> 10, toBinary(5) -> 101
 // Psuedo: Creates a function that takes in a non negative number and returns that number given in binary format.
 
 // Solution 1
@@ -20,5 +20,7 @@
 //     return parseInt(n.toString(2));
 // }
 
-// Solution 2
-const toBinary = (n) => +n.toString(2);
+// Solution 2 - arrow funciton
+const toBinary = n => +n.toString(2);
+
+module.exports = toBinary;
