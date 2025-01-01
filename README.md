@@ -24,7 +24,7 @@ Codewars is an online platform designed for programmers to improve their coding 
 > [!WARNING]
 > Spoiler Alert: Solutions to the katas are available, but I encourage you to attempt solving them yourself first before looking at the answers!
 
-### My Global Index
+### My Global JavaScript Index
 - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/8-kyu) 🚧
 - [7 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/7-kyu) 🚧
 - [6 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/6-kyu) 🚧
