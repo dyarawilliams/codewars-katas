@@ -25,10 +25,16 @@ Codewars is an online platform designed for programmers to improve their coding 
 > Spoiler Alert: Solutions to the katas are available, but I encourage you to attempt solving them yourself first before looking at the answers!
 
 ### My Global Index
-- [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/8-kyu) 🚧
-- [7 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/7-kyu) 🚧
-- [6 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/6-kyu) 🚧
-- [5 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/5-kyu) 🚧
+- JavaScript
+  - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/8-kyu) 🚧
+  - [7 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/7-kyu) 🚧
+  - [6 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/6-kyu) 🚧
+  - [5 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/5-kyu) 🚧 
+- Java
+  - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/Java/8-kyu) 🚧 
+- Python
+  - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/Python/8-kyu) 🚧
+- SQL
 
 ---
 

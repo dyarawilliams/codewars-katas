@@ -68,9 +68,9 @@ Here’s a detailed guide on contributing to this repository:
 ### 2. Clone Your Forked Repository
 - Once you’ve forked the repository, clone it to your local machine using the following command:
   ```bash
-  git clone https://github.com/your-username/repository-name.git
+  git clone https://github.com/your-username/codewars-katas.git
   ```
-- Replace `your-username` with your GitHub username and `repository-name` with the name of the repository.
+- Replace `your-username` with your GitHub username
 
 ### 3. Create a New Branch
 - Before making any changes, create a new branch in your local repository to work on your contribution:
