@@ -13,6 +13,24 @@
 // All inputs will be either be an integer or float.
 // Follow your dreams!
 
-function pointsPer48(ppg, mpg) {
-    return ppg !== 0 ? Math.round(((ppg/mpg) * 48) * 10) / 10 : 0
-}
+// Parameters - Two numbers
+// Return - A number
+// Example - pointsPer48(12, 20) // 28.8
+// Pseudo code -
+// 1. Check if ppg is not equal to 0
+// 2. If it is not equal to 0, then return the rounded value of ppg/mpg * 48
+// 3. If it is equal to 0, then return 0
+
+
+// Solution 1
+// function pointsPer48(ppg, mpg) {
+    // if (typeof ppg !== "number" || typeof mpg !== "number") {
+    //     throw new Error("Both arguments must be numbers");
+    // }
+//  return ppg !== 0 ? Math.round(((ppg/mpg) * 48) * 10) / 10 : 0
+// }
+
+// Solution 2 - arrow function
+const pointsPer48 = (ppg, mpg) => ppg ? Math.round(((ppg/mpg) * 48) * 10) / 10 : 0
+
+module.exports = pointsPer48;
