@@ -9,12 +9,28 @@
 
 // The answer should be rounded to the nearest 2 decimal places.
 
-function howMuchWater(water, load, clothes){
-    if(clothes > 2 * load) {
-        return 'Too much clothes'
-    } else if(clothes < load){
-        return 'Not enough clothes'
-    } else {
-      return +((water) * 1.1 ** (clothes - load)).toFixed(2)
-    }
-}
+// Parameters - water, load, clothes
+// Return - a number
+// Example - howMuchWater(10, 10, 21) => 'Too much clothes', howMuchWater(10, 10, 2) => 'Not enough clothes', howMuchWater(10, 11, 20) => 23.58, howMuchWater(50, 15, 29) => 189.87
+
+// Psuedo Code -
+// 1. Check If clothes > 2 * load and return 'Too much clothes'
+// 2. Check If clothes < load and return 'Not enough clothes'
+// 3. Else return, 
+//  +((water) * 1.1 ** (clothes - load)).toFixed(2)
+
+// Solution 1
+// function howMuchWater(water, load, clothes){
+//     if(clothes > 2 * load) {
+//         return 'Too much clothes'
+//     } else if(clothes < load){
+//         return 'Not enough clothes'
+//     } else {
+//         return +((water) * 1.1 ** (clothes - load)).toFixed(2)
+//     }
+// }
+
+// Solution 2 - arrow function
+const howMuchWater = (water, load, clothes) => clothes > 2 * load ? 'Too much clothes' : clothes < load ? 'Not enough clothes' : +((water) * 1.1 ** (clothes - load)).toFixed(2)
+
+module.exports = howMuchWater;
