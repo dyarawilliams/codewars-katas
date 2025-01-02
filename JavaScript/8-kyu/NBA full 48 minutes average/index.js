@@ -31,6 +31,6 @@
 // }
 
 // Solution 2 - arrow function
-const pointsPer48 = (ppg, mpg) => ppg ? Math.round(((ppg/mpg) * 48) * 10) / 10 : 0
+const pointsPer48 = (ppg, mpg) => ppg !== 0 ? Math.round(((ppg/mpg) * 48) * 10) / 10 : 0
 
 module.exports = pointsPer48;
