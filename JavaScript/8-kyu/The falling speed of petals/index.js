@@ -10,6 +10,25 @@
 // Pay attention to the data types.
 // If the initial velocity is non-positive, the return value should be 0
 
-function sakuraFall(v) {
-    return (v <= 0 || v == Infinity) ? 0 : (80 * 5) / v
-}
+// Parameters: a number, the speed of the petal
+// Returns: a number, the time it takes for the petal to reach the ground from the same branch
+// Examples: sakuraFall(5) => 80, sakuraFall(10) => 40, sakuraFall(-1) => 0
+
+// Psuedo Code:
+// 1. Create a function called sakuraFall that takes in a variable v which is for the speed of the petal.
+// 2. Check if the speed is less than or equal to 0 or if it is Infinity.
+// 3. If the speed is less than or equal to 0 or if it is Infinity, return 0.
+// 4. Otherwise, calculate the time it takes for the petal to reach the ground using the formula: (distance / speed).
+// 5. The distance is given as 80 seconds * 5 cm/s.
+// 6. Return the calculated time.
+
+
+// Solution 1
+// function sakuraFall(v) {
+//     return (v <= 0 || v == Infinity) ? 0 : (80 * 5) / v
+// }
+
+// Solution 2 - arrow function
+const sakuraFall = v => (v <= 0 || v == Infinity) ? 0 : (80 * 5) / v
+
+module.exports = sakuraFall;
