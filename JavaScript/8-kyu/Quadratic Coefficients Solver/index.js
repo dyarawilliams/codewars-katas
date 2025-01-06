@@ -20,6 +20,19 @@
 // Inputs will be integers.
 // When x1 == x2, this means the root has the multiplicity of two
 
-function quadratic(x1, x2){
-    return [1, -x1-x2, x1 *x2]
-}
+// Parameters: numbers (integers)
+// Returns: array of integers
+// Examples: quadratic(1,2) => [1, -3, 2], quadratic(0,1) => [1, -1, 0], quadratic(2,2) => [1, -4, 4]
+
+// Psuedo Code:
+
+
+// Solution 1
+// function quadratic(x1, x2){
+//     return [1, -x1-x2, x1 *x2]
+// }
+
+// Solution 2
+const quadratic = (x1, x2) => [1, -x1-x2, x1 * x2]  // ES6 syntax
+
+module.exports = quadratic;
