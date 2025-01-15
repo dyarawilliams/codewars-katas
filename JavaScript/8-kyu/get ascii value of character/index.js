@@ -15,8 +15,7 @@
 //     return c.charCodeAt()
 // }
 
-// Solution 2 
-// Generate a function that allows me to get the ascii value of a character
+// Solution 2 - Arrow Function
 const getASCII = c => c.charCodeAt()
 
 module.exports = getASCII;
