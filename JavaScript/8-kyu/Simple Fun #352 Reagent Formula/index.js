@@ -1,3 +1,5 @@
+// Kata link: https://www.codewars.com/kata/59c8b38423dacc7d95000008
+
 // DESCRIPTION:
 // Now we will confect a reagent. There are eight materials to choose from, numbered 1,2,..., 8 respectively.
 
@@ -32,9 +34,25 @@
 
 // Happy Coding ^_^
 
-function isValid(formula){
-    if((formula.includes(1) && formula.includes(2)) || (formula.includes(3) && formula.includes(4))) return false
-    else if((formula.includes(5) && !formula.includes(6)) || (!formula.includes(5) && formula.includes(6))) return false
-    else if(!(formula.includes(7) || formula.includes(8))) return false
-    else return true
-}
+// Solution 1
+// function isValid(formula){
+//     if((formula.includes(1) && formula.includes(2)) || (formula.includes(3) && formula.includes(4))) return false
+//     else if((formula.includes(5) && !formula.includes(6)) || (!formula.includes(5) && formula.includes(6))) return false
+//     else if(!(formula.includes(7) || formula.includes(8))) return false
+//     else return true
+// }
+
+// Solution 2 - array function with ternary operator
+const isValid = (formula) => {
+  return (formula.includes(1) && formula.includes(2)) ||
+    (formula.includes(3) && formula.includes(4))
+    ? false
+    : (formula.includes(5) && !formula.includes(6)) ||
+      (!formula.includes(5) && formula.includes(6))
+    ? false
+    : !(formula.includes(7) || formula.includes(8))
+    ? false 
+    : true;
+};
+
+module.exports = isValid;
