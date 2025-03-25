@@ -42,6 +42,18 @@
 //     else return true
 // }
 
+// PREP
+// Parameters: an array of integers (1-8) representing materials
+// Returns: a boolean value indicating whether the formula is valid or not
+// Example: [1,3,7] => true, [7,1,2,3] => false, [1,3,5,7] => false
+// Pseudocode: use if-else statements to check the conditions for validity
+// 1. Check if both 1 and 2 are present or both 3 and 4 are present, return false
+// 2. Check if 5 is present without 6 or 6 is present without 5, return false
+// 3. Check if neither 7 nor 8 is present, return false
+// 4. If all conditions are satisfied, return true
+// 5. Use array methods like includes() to check for the presence of elements in the array
+
+
 // Solution 2 - array function with ternary operator
 const isValid = (formula) => {
   return (formula.includes(1) && formula.includes(2)) ||
