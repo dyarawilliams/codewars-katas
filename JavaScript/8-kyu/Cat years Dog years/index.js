@@ -1,3 +1,5 @@
+// Kata link: https://www.codewars.com/kata/5a6663e9fd56cb5ab800008b/javascript
+
 // Kata Task
 // I have a cat and a dog.
 
