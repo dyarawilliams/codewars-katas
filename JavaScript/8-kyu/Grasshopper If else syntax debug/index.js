@@ -4,10 +4,11 @@
 
 // The function receives one parameter health which will always be a whole number between -10 and 10.
 
+// Solution 1 - if/else statement
 function checkAlive (health) {
     if (health <= 0) {
         return false
     } else {
         return true
     }
-  }
+}
