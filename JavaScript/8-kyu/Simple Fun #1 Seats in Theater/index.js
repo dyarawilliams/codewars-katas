@@ -38,7 +38,22 @@
 // [output] an integer
 // The number of people who sit strictly behind you and in your column or to the left.
 
+// Solution 1
+// function seatsInTheater(nCols, nRows, col, row) {
+//     return (nCols - col + 1) * (nRows - row)
+// }
 
-function seatsInTheater(nCols, nRows, col, row) {
-    return (nCols - col + 1) * (nRows - row)
-}
+// PREP method
+// Parameters: numbers
+// Return: number
+// Example: (16, 11, 5, 3) -> 96, (1,1,1,1) -> 0, (13, 6, 8, 3) -> 18
+
+// Pseudocode:
+// 1. Create a function called seatsInTheater that takes in four parameters: nCols, nRows, col, and row.
+// 2. Calculate the number of people who sit strictly behind you and in your column or to the left by using the formula (nCols - col + 1) * (nRows - row).
+// 3. Return the result of the calculation.
+
+// Solution 2 - arrow funciton
+const seatsInTheater = (nCols, nRows, col, row) => (nCols - col + 1) * (nRows - row);
+
+module.exports = seatsInTheater;
