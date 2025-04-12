@@ -35,7 +35,7 @@ Codewars is an online platform designed for programmers to improve their coding 
 - Python
   - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/Python/8-kyu) 🚧
 - SQL
-
+  - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/SQL/8-kyu) 🚧
 ---
 
 #### Notes:

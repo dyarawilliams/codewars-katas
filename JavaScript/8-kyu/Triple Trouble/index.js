@@ -4,6 +4,7 @@
 
 // Note: You can expect all of the inputs to be the same length.
 
+// Solution 1
 function tripleTrouble(one, two, three){
     let str = ''
     for(let i = 0; i < one.length; i++){
@@ -11,3 +12,5 @@ function tripleTrouble(one, two, three){
     }
     return str
 }
+
+module.exports = tripleTrouble;
