@@ -18,7 +18,10 @@ When you have finished the work, click "Run Tests" to see if your code is workin
 In the end, click "Submit" to submit your code pass this kata.
 */
 
+// Solution 1
 function helloWorld(){
     var str = 'Hello World!'
     console.log(str)
 }
+
+module.exports = helloWorld;
