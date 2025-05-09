@@ -1,4 +1,4 @@
-const addLength = require("../index.js");
+const addLength = require('./index.js');
 
 describe("addLength", () => {
     it("should return an array of strings with the length of each word added", () => {
