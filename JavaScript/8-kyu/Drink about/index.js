@@ -1,3 +1,5 @@
+// Kata Link: https://www.codewars.com/kata/56170e844da7c6f647000063/javascript
+
 // Kids drink toddy.
 // Teens drink coke.
 // Young adults drink beer.
