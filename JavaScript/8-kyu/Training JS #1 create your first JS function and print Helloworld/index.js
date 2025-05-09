@@ -1,3 +1,5 @@
+// Kata Link: https://www.codewars.com/kata/571ec274b1c8d4a61c0000c8
+
 /* Task:
 Please refer to two example above and write your first JS function.
 
