@@ -1,3 +1,4 @@
+// Kata Link: https://www.codewars.com/kata/5729b103dd8bac11a900119e
 // Task
 // Coding in function fiveLine, function accept 1 parameter:s. s is a string.
 

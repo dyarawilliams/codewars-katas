@@ -1,3 +1,5 @@
+// Kata Link: https://www.codewars.com/kata/56f3f6a82010832b02000f38
+
 // Be Concise I - The Ternary Operator
 // You are given a function describeAge / describe_age that takes a parameter age (which will always be a positive integer) and does the following:
 

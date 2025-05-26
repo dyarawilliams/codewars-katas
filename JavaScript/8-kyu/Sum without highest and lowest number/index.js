@@ -1,3 +1,5 @@
+// Kata Link: https://www.codewars.com/kata/576b93db1129fcf2200001e6
+
 // Task
 // Sum all the numbers of a given array ( cq. list ), except the highest and the lowest element ( by value, not by index! ).
 

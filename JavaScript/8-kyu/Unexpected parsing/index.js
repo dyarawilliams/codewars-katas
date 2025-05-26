@@ -1,3 +1,5 @@
+// Kata Link:https://www.codewars.com/kata/54fdaa4a50f167b5c000005f
+
 // Here is a piece of code:
 
 // function getStatus(isBusy) {

@@ -1,3 +1,5 @@
+// Kata Link: https://www.codewars.com/kata/57284d23e81185ae6200162a
+
 // Task
 // Coding in function topSecret, function accept 1 parameter:file. file is an encrypted string.
 

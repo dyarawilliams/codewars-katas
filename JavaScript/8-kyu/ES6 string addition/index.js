@@ -1,3 +1,5 @@
+// Kata Link: https://www.codewars.com/kata/582e4c3406e37fcc770001ad
+
 // It is easy to join two strings together like this string1 + string2.
 
 // Another way to get the desired result would be with string1.concat(string2)
