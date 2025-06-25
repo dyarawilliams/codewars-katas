@@ -17,3 +17,5 @@ function bmi(weight, height) {
     else return 'Obese'
     return result;
 }
+
+module.exports = bmi;

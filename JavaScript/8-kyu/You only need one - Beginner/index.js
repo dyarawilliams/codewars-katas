@@ -17,4 +17,9 @@
 // }
 
 // Solution 2 
-const check = (arr, x) => arr.includes(x)
+// const check = (arr, x) => arr.includes(x)
+
+// Solution 3
+const check = (arr, x) => arr.some(item => item == x);
+
+module.exports = check;
