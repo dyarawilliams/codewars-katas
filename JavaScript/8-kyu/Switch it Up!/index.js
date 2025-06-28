@@ -42,3 +42,5 @@ function switchItUp(number){
         return "Not a number";
   }
 }
+
+module.exports = switchItUp;
