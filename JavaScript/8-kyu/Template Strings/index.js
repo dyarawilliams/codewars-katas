@@ -8,10 +8,13 @@
 // You must output a string containing the two strings with the word ```' are '```
 // Reference: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/template_strings
 
-var templateStrings = function(noun, adjective) {
-    return `${noun} are ${adjective}`
-}
+// Solution 1:
+// var templateStrings = function(noun, adjective) {
+    // return `${noun} are ${adjective}`
+// }
 
-console.log(templateStrings('Animals', 'Good'))
-console.log(templateStrings('You', 'special'))
-console.log(templateStrings('lives', 'frozen'))
+
+// Solution 2:
+const templateStrings = (noun, adjective) => `${noun} are ${adjective}`;
+
+module.exports = templateStrings;
