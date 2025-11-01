@@ -26,10 +26,10 @@ Codewars is an online platform designed for programmers to improve their coding 
 
 ### My Global Index
 - JavaScript
-  - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/8-kyu) 🚧
-  - [7 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/7-kyu) 🚧
-  - [6 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/6-kyu) 🚧
-  - [5 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/5-kyu) 🚧 
+  - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/8-kyu) 🚧
+  - [7 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/7-kyu) 🚧
+  - [6 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/6-kyu) 🚧
+  - [5 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/5-kyu) 🚧 
 - Java
   - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/Java/8-kyu) 🚧 
 - Python
