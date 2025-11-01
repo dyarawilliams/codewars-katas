@@ -26,3 +26,5 @@
 
 // Solution 3 (Arrow Function)
 const squareSum = (numbers) => numbers.reduce((sum, current) => sum + (current * current), 0)
+
+module.exports = squareSum;

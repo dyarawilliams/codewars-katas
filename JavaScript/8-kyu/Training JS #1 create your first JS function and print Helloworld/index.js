@@ -1,3 +1,5 @@
+// Kata Link: https://www.codewars.com/kata/571ec274b1c8d4a61c0000c8
+
 /* Task:
 Please refer to two example above and write your first JS function.
 
@@ -18,7 +20,10 @@ When you have finished the work, click "Run Tests" to see if your code is workin
 In the end, click "Submit" to submit your code pass this kata.
 */
 
+// Solution 1
 function helloWorld(){
     var str = 'Hello World!'
     console.log(str)
 }
+
+module.exports = helloWorld;

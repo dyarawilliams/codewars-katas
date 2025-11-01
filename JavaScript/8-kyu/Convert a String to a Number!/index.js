@@ -12,6 +12,12 @@ Examples:
 
  */
 
-var stringToNumber = function(str){
-    return Number(str);
-}
+// Solution 1
+// var stringToNumber = function(str){
+//     return Number(str);
+// }
+
+// Solution 2 (using arrow function):
+const stringToNumber = (str) => parseInt(str);
+
+module.exports = stringToNumber;

@@ -10,6 +10,18 @@
 // step > 0
 // the range does not HAVE to include max (depending on the step)
 
+// PREP METHOD:
+// Parameters: 3 numbers - min, max, step
+// Returns: array of numbers - range from start to stop
+// Examples: (1, 10, 1) -> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 
+// (-10, 1, 1) -> [-10, -9, -8, -7, -6, -5, -4, -3, -2, -1, 0, 1]
+
+// Psuedo:
+// create an empty array
+// loop from min to max, incrementing by step each time
+// push each number to the array
+// return the array
+
 function generateRange(min, max, step){
     let arr = []
     for(let i = min; i <= max; i+=step){
@@ -17,3 +29,5 @@ function generateRange(min, max, step){
     }
     return arr
 }
+
+module.exports = generateRange;

@@ -11,7 +11,24 @@
 // the number of red marbles pulled out so far (always lower than the starting number of red marbles)
 // guessBlue() should return the probability of drawing a blue marble, expressed as a float. For example, guessBlue(5, 5, 2, 3) should return 0.6.
 
-function guessBlue(blueStart, redStart, bluePulled, redPulled) {
-    let totalMarbles = blueStart + redStart - bluePulled - redPulled;
-    return (blueStart - bluePulled) / totalMarbles;
-}
+// Parameters: four integers representing the number of blue marbles, red marbles, blue marbles pulled out, and red marbles pulled out.
+// Returns: a float representing the probability of drawing a blue marble.
+
+// Example: guessBlue(5, 5, 2, 3) => 0.6, guessBlue(5, 7, 4, 3) => 0.2, guessBlue(12, 18, 4, 6) => 0.4
+
+// Psuedo Code: 
+// 1. Calculate the total number of marbles in the bag
+// 2. Subtract the number of blue marbles pulled out from the total number of blue marbles
+// 3. Divide the number of blue marbles left by the total number of marbles in the bag
+// 4. Return the result
+
+// Solution 1
+// function guessBlue(blueStart, redStart, bluePulled, redPulled) {
+//     let totalMarbles = blueStart + redStart - bluePulled - redPulled;
+//     return (blueStart - bluePulled) / totalMarbles;
+// }
+
+// Solution 2 
+const guessBlue = (blueStart, redStart, bluePulled, redPulled) => (blueStart - bluePulled) / (blueStart + redStart - redPulled - bluePulled);
+
+module.exports = guessBlue;

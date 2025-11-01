@@ -1,0 +1,1 @@
+SELECT race, count(id) as count FROM demographics GROUP BY race ORDER BY count(id) DESC;

@@ -21,7 +21,36 @@
 
 // If you make it, return "Alive!", if not, return "Shark Bait!".
 
-function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
-    let safetyTime = pontoonDistance / youSpeed
-    return sharkDistance / (dolphin ? sharkSpeed / 2 : sharkSpeed) > safetyTime ? 'Alive!' : 'Shark Bait!'
-}
+// Parameters: pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin
+// Returns: a string "Alive " or "Shark Bait!"
+// Example: shark(12, 50, 4, 8, true) => "Alive!", shark(7, 55, 4, 16, true) => "Alive!", shark(24, 0, 4, 8, true) => "Shark Bait!"
+
+ // Psuedo Code:
+// 1. Define a function `shark` that takes five parameters: `pontoonDistance`, `sharkDistance`, `youSpeed`, `sharkSpeed`, and `dolphin`.
+// 2. If `dolphin` is true, halve the `sharkSpeed`.
+// 3. Calculate the time it takes for you to reach the pontoon by dividing `pontoonDistance` by `youSpeed`.
+// 4. Calculate the time it takes for the shark to reach the pontoon by dividing `sharkDistance` by `sharkSpeed`.
+// 5. Compare the two times:
+//     - If your time is less than the shark's time, return "Alive!".
+//     - Otherwise, return "Shark Bait!".
+
+// Solution 1
+
+// function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
+//     let safetyTime = pontoonDistance / youSpeed
+//     return sharkDistance / (dolphin ? sharkSpeed / 2 : sharkSpeed) > safetyTime ? 'Alive!' : 'Shark Bait!'
+// }
+// Psuedo Code:
+
+// Solution 2 - Best Practice
+// function shark(pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin){
+//     if(dolphin) {
+//         sharkSpeed /= 2;
+//     }
+//     return sharkDistance / sharkSpeed > pontoonDistance / youSpeed  ? "Alive!" : "Shark Bait!";
+// }
+
+// Solution 3 - arrow function
+const shark = (pontoonDistance, sharkDistance, youSpeed, sharkSpeed, dolphin) => sharkDistance / (dolphin ? sharkSpeed / 2 : sharkSpeed) > pontoonDistance / youSpeed ? 'Alive!' : 'Shark Bait!'
+
+module.exports = shark;
