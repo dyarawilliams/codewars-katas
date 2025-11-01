@@ -27,14 +27,16 @@ Codewars is an online platform designed for programmers to improve their coding 
 ---
 
 ### My Global Index
-##### Click on an icon in the Global Index to view the directory for each Kata Completed.
-
-| Programming Language  |     ?     |         8 Kyu        |         7 Kyu         |        6 Kyu         |         5 Kyu        |         4 Kyu        |         3 Kyu        |         2 Kyu        |         1 Kyu        |
-|:---------------------:|:---------:|:--------------------:|:---------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|:--------------------:|
-|     *JavaScript*      |           |  [🚧][8-javascript]  |  [🚧][7-javascript]  |  [🚧][6-javascript]  |  [🚧][5-javascript] |           ⛔         |           ⛔         |           ⛔        |           ⛔        |
-|        *Java*         |           |     [🚧][8-java]     |           ⛔         |           ⛔         |           ⛔        |           ⛔         |           ⛔         |           ⛔        |           ⛔        |
-|       *Python*        |           |    [🚧][8-python]    |           ⛔         |           ⛔         |           ⛔        |           ⛔         |           ⛔         |           ⛔        |           ⛔        |
-|        *SQL*          |           |     [🚧][8-sql]      |           ⛔         |           ⛔         |           ⛔        |           ⛔         |           ⛔         |           ⛔        |           ⛔        |
+- JavaScript
+  - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/8-kyu) 🚧
+  - [7 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/7-kyu) 🚧
+  - [6 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/6-kyu) 🚧
+  - [5 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/5-kyu) 🚧 
+- Java
+  - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/Java/8-kyu) 🚧 
+- Python
+  - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/Python/8-kyu) 🚧
+- SQL
 
 ---
 
