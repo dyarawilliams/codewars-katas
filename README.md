@@ -45,8 +45,6 @@ The goal is to continuously build:
 
 Each completed kata is another opportunity to learn something new, revisit an old concept, or find a better way to solve a problem.
 
-> **The solutions are here to document the journey — not replace it.** If you're exploring this repository, try the kata yourself before checking the solution. 🚀
-
 > [!WARNING]
 > Spoiler Alert: Solutions to the katas are available, but I encourage you to attempt solving them yourself first before looking at the answers!
 
