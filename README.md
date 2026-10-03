@@ -33,6 +33,8 @@ Codewars is a platform for practicing programming through katas; see the [Codewa
 
 More than just a place to store solutions, this repo gives me a way to **practice consistently, track my progress, and see how my approach to problem-solving evolves over time.**
 
+Contributions are welcome; see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+
 The goal is to continuously build:
 
 * 🧠 Stronger problem-solving through varied perspectives, with visible progress over time
@@ -80,6 +82,8 @@ npx jest "javascript/7-kyu/Descending Order/index.test.js"
 ---
 
 ## 📚 Solutions Index
+
+Solutions are organized as `language/kyu/kata-name/`, for example `javascript/7-kyu/Descending Order/`.
 
 - JavaScript
   - [8 kyu][8-javascript] 🚧
