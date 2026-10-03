@@ -90,13 +90,13 @@ This repository uses **[CodeHub](https://chromewebstore.google.com/detail/codehu
 - ⛔ No Entry
 
 
-  [8-javascript]: http://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/8-kyu
+  [8-javascript]: http://github.com/dyarawilliams/codewars-katas/tree/main/javascript/8-kyu
   [8-java]: https://github.com/dyarawilliams/codewars-katas/tree/main/Java/8-kyu
   [8-python]: https://github.com/dyarawilliams/codewars-katas/tree/main/Python/8-kyu
   [8-sql]: https://github.com/dyarawilliams/codewars-katas/tree/main/SQL/8-kyu
-  [7-javascript]: https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/7-kyu
-  [6-javascript]: https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/6-kyu
-  [5-javascript]: https://github.com/dyarawilliams/codewars-katas/tree/main/JavaScript/5-kyu
+  [7-javascript]: https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/7-kyu
+  [6-javascript]: https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/6-kyu
+  [5-javascript]: https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/5-kyu
 
 <div align="center">
 
