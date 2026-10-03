@@ -20,7 +20,7 @@
 
 - [About](#-about-this-repository)
 - [Live Codewars Stats](#-live-codewars-stats)
-- [Global Index](#my-global-index)
+- [Solutions Index](#-solutions-index)
 
 ---
 
@@ -66,7 +66,8 @@ This repository uses **[CodeHub](https://chromewebstore.google.com/detail/codehu
 
 ---
 
-### My Global Index
+## 📚 Solutions Index
+
 - JavaScript
   - [8 kyu][8-javascript] 🚧
   - [7 kyu][7-javascript] 🚧
