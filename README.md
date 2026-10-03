@@ -68,17 +68,17 @@ This repository uses **[CodeHub](https://chromewebstore.google.com/detail/codehu
 
 ### My Global Index
 - JavaScript
-  - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/8-kyu) 🚧
-  - [7 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/7-kyu) 🚧
-  - [6 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/6-kyu) 🚧
-  - [5 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/5-kyu) 🚧 
+  - [8 kyu][8-javascript] 🚧
+  - [7 kyu][7-javascript] 🚧
+  - [6 kyu][6-javascript] 🚧
+  - [5 kyu][5-javascript] 🚧
 - Java
-  - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/java/8-kyu) 🚧
+  - [8 kyu][8-java] 🚧
 - Python
-  - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/python/8-kyu) 🚧
-  - [7 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/python/7-kyu) 🚧
+  - [8 kyu][8-python] 🚧
+  - [7 kyu][7-python] 🚧
 - SQL
-  - [8 kyu](https://github.com/dyarawilliams/codewars-katas/tree/main/sql/8-kyu) 🚧
+  - [8 kyu][8-sql] 🚧
 
 ---
 
@@ -88,6 +88,13 @@ This repository uses **[CodeHub](https://chromewebstore.google.com/detail/codehu
 - 🚧 Work in progress
 - ⛔ No Entry
 
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0%3A000000%2C100%3AF05656&section=footer&reversal=false&text=Thanks+for+stopping+by%21+See+you+soon.+%F0%9F%91%8B%F0%9F%8F%BE&textBg=false&fontColor=c0c0c0&fontSize=28&fontAlign=51&fontAlignY=70&animation=twinkling&rotate=0&strokeWidth=0&descSize=20&descAlign=50&descAlignY=60" />
+
+</div>
+  
+<!-- References -->
 
   [8-javascript]: http://github.com/dyarawilliams/codewars-katas/tree/main/javascript/8-kyu
   [8-java]: https://github.com/dyarawilliams/codewars-katas/tree/main/java/8-kyu
@@ -97,10 +104,3 @@ This repository uses **[CodeHub](https://chromewebstore.google.com/detail/codehu
   [7-python]: https://github.com/dyarawilliams/codewars-katas/tree/main/python/7-kyu
   [6-javascript]: https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/6-kyu
   [5-javascript]: https://github.com/dyarawilliams/codewars-katas/tree/main/javascript/5-kyu
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=0%3A000000%2C100%3AF05656&section=footer&reversal=false&text=Thanks+for+stopping+by%21+See+you+soon.+%F0%9F%91%8B%F0%9F%8F%BE&textBg=false&fontColor=c0c0c0&fontSize=28&fontAlign=51&fontAlignY=70&animation=twinkling&rotate=0&strokeWidth=0&descSize=20&descAlign=50&descAlignY=60" />
-
-</div>
-  
