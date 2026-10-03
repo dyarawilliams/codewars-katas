@@ -20,6 +20,7 @@
 
 - [About](#-about-this-repository)
 - [Live Codewars Stats](#-live-codewars-stats)
+- [Global Index](#my-global-index)
 
 ---
 
@@ -30,8 +31,6 @@ This repository is a **record of my Codewars journey** — a growing collection 
 Codewars is an online platform designed for programmers to improve their coding skills through practice and community engagement. It offers a variety of coding challenges known as "katas," which are available in multiple programming languages. Users can solve these challenges, learn from others' solutions, and contribute to the community by creating their own katas​.
 
 [Codewars | The Codewars Docs](https://docs.codewars.com/).
-
-> The solutions in this repository are now **pushed directly from [CodeHub](https://chromewebstore.google.com/detail/codehub/gadnnalppjchhdpplcjkhfabddchhlkp)**, a Chrome extension that makes it easier to save and push completed Codewars solutions to GitHub.
 
 More than just a place to store solutions, this repo gives me a way to **practice consistently, track my progress, and see how my approach to problem-solving evolves over time.**
 
